@@ -92,7 +92,7 @@ Unfortunately, after searching through several of these SQLite databases, nothin
 
 ### Finding data in mails
 
-To find data in Thunderbirrd mails, we will try to enumerate the files on the machine containing the word "Thunderbird": 
+To find data in Thunderbird mails, we will try to enumerate the files on the machine containing the word "Thunderbird": 
 
 ```
 kali@kali ~/D/T/volatility3 (develop)> python3 vol.py -f ../keepass-chall/adupont.dmp windows.filescan | grep Thunderbird
