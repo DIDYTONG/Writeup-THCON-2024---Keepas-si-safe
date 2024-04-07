@@ -11,17 +11,17 @@ NB: The exploitation is feasible on a Chromium-based browser.
 
 ## 1. Investiagtion 
 
-Une fois le challenge téélchargé et extrait de son archive nous nous retrouvons avec deux fichier :
+Once the challenge has been downloaded and extracted from its archive, we are left with two :
 
 ```
 kali@kali ~/D/T/keepass-chall> ls
 Database.kdbx  adupont.dmp
 ```
 
-Le premier est un fichier en .kdbx. 
-Quand nous cherchons à l'ouvrir, il nous demande un mot de passe que nous n'avons pas (Le flag est à l'interieur ?)
+The first is a .kdbx file. 
+When we try to open it, it asks us for a password that we don't have (The flag is inside?).
 
-Le second fichier quant à lui est .dmp qui correspond a un dump mémoire d'une machine.
+The second file is .dmp, which corresponds to a machine memory dump.
 
 ## 2. A deep dive into the memory deump  
 Since this is a memory dump, we'll be working with the forensic tool [Volatility3](https://github.com/volatilityfoundation/volatility3)
