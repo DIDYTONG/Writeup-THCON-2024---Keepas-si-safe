@@ -4,6 +4,7 @@
 ### Writeup THCON 2024 
 
 **Difficulty**: 500 points | 6 solves
+
 **Description**: We believe the bad guys got a hold of a memory dump on one of our machines. Looking through our logs, we also realized they were able to access this Database file. The person responsible for this machine says there is no way they could have gained access to his password manager - could you have a look ?
 NB: The exploitation is feasible on a Chromium-based browser.
 
