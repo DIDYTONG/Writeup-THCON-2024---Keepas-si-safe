@@ -10,7 +10,7 @@ NB: The exploitation is feasible on a Chromium-based browser.
 
 **Author**: Spyrovic
 
-## 1. Investiagtion 
+## 1. Investigation 
 
 Once the challenge has been downloaded and extracted from its archive, we are left with two :
 
