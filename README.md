@@ -24,9 +24,9 @@ When we try to open it, it asks us for a password that we don't have (The flag i
 
 The second file is .dmp, which corresponds to a machine memory dump.
 
-## 2. A deep dive into the memory deump  
+## 2. A deep dive into the memory dump  
 Since this is a memory dump, we'll be working with the forensic tool [Volatility3](https://github.com/volatilityfoundation/volatility3)
-First, we'll try to enumerate the dump. One of the first commands we can do with Volatility in this kind of situation is to enumerate the processes. We're going to use the command ``ẁindows.pslist`` which will allow us to display all the machine's precesses.
+First, we'll try to enumerate the dump. One of the first commands we can do with Volatility in this kind of situation is to enumerate the processes. We're going to use the command ``ẁindows.pslist`` which will allow us to display all the machine's processes.
 
 ```
 kali@kali ~/D/T/volatility3 (develop)> python3 vol.py -f ../keepass-chall/adupont.dmp windows.pslist
@@ -49,7 +49,7 @@ Once the command has been executed, volatility returns a set of the machine's ac
 
 ## 3. Thunderbird investigation
 
-After a little research into Thunderbird's invesagtion, two main things come to mind: 
+After a little research into Thunderbird's investigation, two main things come to mind: 
 -  Finding SQLite databases of Thunderbird**
 - Finding data in mails
 
